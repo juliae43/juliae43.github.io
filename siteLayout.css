@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Html*/
+html {
+	background-color: lightgray;
+}
+
+/*Header*/
+header {
+	/*background-color: whitesmoke;*/
+	background-image: url("pexels-simon-berger.jpg");
+	background-size: cover;
+	background-position: bottom; 
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	text-align: center;
+	color: whitesmoke; 
+}
+
+h1 {
+	display: inline-flex;
+	font-size: 42px; 
+}
+
+/*Navigation Bar*/
+.navigationBar {
+	display: flex; 
+	justify-content: center;
+	align-items: baseline;
+	margin: 25px;
+}
+
+nav ul li {
+	display: inline; 
+	text-align: center; 
+	padding: 10px; 
+	background-color: lightgray;
+	border: 10px solid lightgray; 
+	border-radius: 20px; 
+}
+
+nav ul li a {
+	text-decoration: none; 
+	color: black;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+}
+
+/*Content*/
+div.textbox {
+	background-color: whitesmoke;
+	margin: 25px; 
+	border: solid 10px whitesmoke; 
+}
+
+div.photos {
+	display: flex; 
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; 
+}
+
+div.photos img {
+	width: 55%;
+	height: auto;
+	border: 10px solid whitesmoke; 
+}
+
+div.photos p {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 20px;
+	color: whitesmoke;
+}
+/*Form*/ 
+form {
+	background-color: whitesmoke;
+	margin: 50px;
+}
+div.formRow {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 7px 0px;
+}
+
+div.formRow > * {
+	flex: 1 1 150px;
+}
+
+input[id="comment"] {
+	width: 550px; 
+}
+
+input {
+	background-color: lightgray; 
+}
+
+/*Webpage size for smartphones and tablets*/
+
